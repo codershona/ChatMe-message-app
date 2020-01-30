@@ -2,7 +2,7 @@
 
 #### Using Rails 5
 
-*** Using ActionCable and Web Sockets:
+*   Using ActionCable and Web Sockets:
 
 ```
  * I had Set my Roots folder at first.
@@ -13,7 +13,7 @@
 ```
 
 
-** Installing Semantic User-Interface For Front-End:
+*   Installing Semantic User-Interface For Front-End:
 
 ```
     I Use Semantic UI Framework from sematic-ui-sass gemfile and jquery-rails gemfile and run bin/bundle.
