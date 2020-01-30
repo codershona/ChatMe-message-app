@@ -1,24 +1,21 @@
-# README
+## Project: ChatMe Message App
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+#### Using Rails 5
 
-Things you may want to cover:
+*** Using ActionCable and Web Sockets:
 
-* Ruby version
+```
+ * I had Set my Roots folder at first.
+ * I setup my 2 controllers file which is:  sessions and chatrooms.
+ * I had setup the associated views.
+ * At last I commit and push to my github repo.
 
-* System dependencies
+```
 
-* Configuration
 
-* Database creation
+** Installing Semantic User-Interface For Front-End:
 
-* Database initialization
+```
+    I Use Semantic UI Framework from sematic-ui-sass gemfile and jquery-rails gemfile and run bin/bundle.
+```
 
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
