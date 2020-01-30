@@ -1,4 +1,11 @@
-## Project: ChatMe Message App
+# README
+
+### Project: ChatMe Message App
+
+
+#### BUILD BY : FALGUNI ISLAM (SOFTWARE DEVELOPER)
+
+## PROJECT IS READY DEPLOY IT IN HEROKU
 
 #### Using Rails 5
 
