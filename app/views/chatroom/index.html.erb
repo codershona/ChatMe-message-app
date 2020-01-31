@@ -18,19 +18,7 @@
 
 		<div class="ui feed">
 		  <!-- <h3 class="ui header">Followers  Activity : </h3> -->
-		  <% @messages.each do |message| %>
-
-		  <div class="event">
-		    <div class="content">
-		      <div class="summary">
-		         <em>
-		       <%= message.user.username %>: <%= message.body %>
-		         </em>
-		      </div>
-		    </div>
-		  </div>
-
-		  <% end %>
+		<%= render @messages %>
 
 
 		</div>
