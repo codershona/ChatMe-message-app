@@ -18,81 +18,68 @@
 
 		<div class="ui feed">
 		  <!-- <h3 class="ui header">Followers  Activity : </h3> -->
+		  <% @messages.each do |message| %>
+
 		  <div class="event">
 		    <div class="content">
 		      <div class="summary">
-		         <a>Elliot Fu</a> added <a>Jenny Hess</a> as a friend
+		         <em>
+		       <%= message.user.username %>: <%= message.body %>
+		         </em>
 		      </div>
 		    </div>
 		  </div>
-		  <div class="event">
-		    <div class="content">
-		      <div class="summary">
-		         <a>Stevie Feliciano</a> added <a>Elliot Fu</a> as a friend
-		      </div>
-		    </div>
-		  </div>
-		  <div class="event">
-		    <div class="content">
-		      <div class="summary">
-		         <a>Helen Troy</a> added <a>Christian Rocha</a> as a friend
-		      </div>
-		    </div>
-		  </div>
-		  <div class="event">
-		    <div class="content">
-		      <div class="summary">
-		         <em>Christian Rocha</em>: Test Message
-		      </div>
-		    </div>
-		  </div>
+
+		  <% end %>
+
+
 		</div>
 
 		</div>
 
 
-<div class="extra content">
-			
-<form class="ui reply form">
-<div class="field">
+	<div class="extra content">
+				
+	<form class="ui reply form">
+	<div class="field">
 
-<div class="ui fluid icon input">
+	<div class="ui fluid icon input">
 
-	<input type="text" placeholder="Enter your Message here...">
+		<input type="text" placeholder="Enter your Message here...">
 
-<i class="bordered inverted orange edit icon"></i> 
-</div>
-</div>
-
-
-</form>
-
-
-</div>
-</div>
-</div>
-
-
-		<div class="four wide column">
-
-			<div class="ui fluid raised card chatbox">
-	          <div class="content">
-
-		<div class="ui inverted vertical pointing menu">
-		  <a class="active item">
-		    Home
-		  </a>
-		  <a class="item">
-		    Messages
-		  </a>
-		  <a class="item">
-		    Friends
-		  </a>
-		</div>
-
-		</div>
-
-		</div>
+	<i class="bordered inverted orange edit icon"></i> 
 	</div>
 	</div>
+
+
+	</form>
+
+
+	</div>
+	</div>
+	</div>
+
+
+			<div class="four wide column">
+
+				<div class="ui fluid raised card chatbox">
+		          <div class="content">
+
+			<div class="ui inverted vertical pointing menu">
+			  <a class="active item">
+			    Home
+			  </a>
+			  <a class="item">
+			    Messages
+			  </a>
+			  <a class="item">
+			    Friends
+			  </a>
+			</div>
+
+			</div>
+
+			</div>
+		</div>
+		</div>
 
