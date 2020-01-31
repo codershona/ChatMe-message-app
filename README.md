@@ -25,4 +25,17 @@
 ```
     I Use Semantic UI Framework from sematic-ui-sass gemfile and jquery-rails gemfile and run bin/bundle.
 ```
+* Model:
+```
+  Run this in terminal:
+     rails generate model User
+     rails generate model Message
+
+     After setting db(migrate) file run rails db:migrate
+
+     * rails db:seed to add your data in seed.rb file.
+
+```
+
+
 
