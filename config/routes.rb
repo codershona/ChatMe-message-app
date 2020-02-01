@@ -11,7 +11,7 @@ Rails.application.routes.draw do
     post 'message', to: 'messages#create'
    
 
-   get 'signup', to: 'users#new'
+   # get 'signup', to: 'users#new'
 
     mount ActionCable.server, at: '/cable'
 
