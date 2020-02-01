@@ -1,0 +1,49 @@
+<!-- <a class="item">
+      CHATROOM
+    </a> -->
+
+    <%= link_to "CHATROOM", root_path, class: "item" %>
+
+
+    <a class="item">
+      MESSAGES
+    </a>
+     <a class="active item">
+      ABOUT US
+    </a>
+    <div class="right menu">
+      <div class="ui dropdown item">
+        ACCOUNT <i class="dropdown icon"></i>
+        <div class="menu">
+
+    <% if logged_in? %>
+
+    <%= link_to "LOG OUT", logout_path, method: :delete, class: "item" %>
+      
+      <!-- <a class="item">LOG OUT</a> -->
+          <!-- <a class="item">LOG IN</a> -->
+        <%  else %>
+
+   <%= link_to "LOG IN", login_path, class: "item" %>
+
+
+          <a class="item">SIGN UP</a>
+
+          <% end %>
+
+
+        </div>
+      </div>
+
+
+      <% if !logged_in? %>
+
+      <div class="item">
+        
+        <%= link_to "LOG IN", login_path, class: "ui primary button" %>
+         <!--  <div class="ui primary button">Sign Up</div> -->
+      </div>
+
+      <% end %>
+      
+    </div>
