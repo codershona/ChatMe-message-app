@@ -13,4 +13,6 @@ Rails.application.routes.draw do
 
    get 'signup', to: 'users#new'
 
+    mount ActionCable.server, at: '/cable'
+
 end

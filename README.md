@@ -31,11 +31,18 @@
      rails generate model User
      rails generate model Message
 
-     rails generate controller messages create
-
      After setting db(migrate) file run rails db:migrate
 
      * rails db:seed to add your data in seed.rb file.
+
+     - rails generate controller messages create
+     - rails destroy controller messages -> this will delete migration.
+
+     * WEBSOCKET (ACTIONCABLE):
+
+     * To create websocket :
+
+           rails generate channel chatroom
 
 ```
 
