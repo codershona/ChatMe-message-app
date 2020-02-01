@@ -40,7 +40,7 @@
 
      * WEBSOCKET (ACTIONCABLE):
 
-     * To create websocket :
+     * To create websocket (chatroom channel):
 
            rails generate channel chatroom
 
