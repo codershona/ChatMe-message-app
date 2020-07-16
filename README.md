@@ -3,7 +3,8 @@
 ### Project: ChatMe Message App
 
 
-#### BUILD BY : FALGUNI ISLAM (SOFTWARE DEVELOPER)
+#### Project Can be found in here :
+ **[Live version](https://lit-taiga-90376.herokuapp.com/login)**
 
 ## PROJECT IS READY DEPLOY IT IN HEROKU
 
@@ -43,6 +44,46 @@
      * To create websocket (chatroom channel):
 
            rails generate channel chatroom
+           
+           
+           
+
+```
+
+
+## HEROKU DEPLOYMENT:
+
+```
+             - heroku login ;
+            - heroku create ;
+            - git remote ;
+
+            * Add this in Gemfile:
+            group :development, :test do
+            gem 'sqlite3'
+            end
+
+            group :production do
+            gem 'pg'
+            end 
+            - bundle install --without production ;
+            - git status / git add . / git commit -m 'updates for heroku deployment' ;
+            - git push/ git push origin master ;
+            - git push heroku master ;
+            * If you run into an error on the next command stating that you need to
+            use Bundler 2 or greater with this lockfile, you’ll need to run:
+            heroku buildpacks:set https://github.com/bundler/heroku-buildpack-bundler2
+
+            and then run the git push heroku master command again.
+
+
+
+            - heroku run rails db:migrate ;
+
+            - heroku open 
+
+
+
 
 ```
 
