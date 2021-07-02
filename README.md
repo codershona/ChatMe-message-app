@@ -18,6 +18,9 @@
 
 #### Using Rails 5
 
+* Backend: Ruby on Rails
+* Frontend: Semantic UI
+
 *   Using ActionCable and Web Sockets:
 
 ```
